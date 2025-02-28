@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import streamlit as st
 
-data = pd.read_csv('C:\\projecty\\netflix_titles0.csv')
+data = pd.read_csv('netflix_titles0.csv')
 
 data = data.dropna(axis=1, how='all')
 
